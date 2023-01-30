@@ -3,7 +3,6 @@ class App {
         var canvas = document.getElementById("CanvasID");
         var ctx = canvas.getContext("2d");
     
-    
   
 
   //lucht
@@ -118,7 +117,8 @@ ctx.fillStyle = "orange";
 ctx.fillRect(407, 290, 5, 5);
 
 
-
+ctx.font = "60px Sans-Serif";
+ctx.fillText("Fijne Kerst!", 100, 75);
 
     }
 }
